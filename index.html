@@ -1,7 +1,199 @@
 <!DOCTYPE html>
-<html>
-<body bgcolor=#000000>
-<font color=#ffffff><h1>Hello World</h1></font>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Code Rad</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+        <script src="lib/splide-4.1.3/dist/js/splide.min.js"></script>
+        <link rel="stylesheet" href="lib/splide-4.1.3/dist/css/splide.min.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="nav-wrapper">
+            <div> 
+                 <!-- class="nav-wrapper"> -->
+                <a href="index.html"><img src="images/CodeRad.png" class="logo"></a>
+            </div>
+
+            <div class="topnav">            
+                <a href="#home">Contact</a>
+                <a href="#news">Android Projects</a>
+                <a href="#contact">Graphic Design</a>
+                <a href="#about">Sound and Music</a>
+            </div>
+        </div>
+ 
+        <!-- <h class="section-title">Android Projects</h> -->
+        
+        <div class="project-wrapper">
+            <div class="carousel-wrapper">
+                <div id="image-carousel-1" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="images/ss-io1.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-io2.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-io3.jpg" alt="">
+                            </li>			
+                            <li class="splide__slide">
+                                <img src="images/ss-io4.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-io5.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="project-details">
+                <h1 class="title">Incremental Outfitters Inc.</h1>
+                <hr id="project-rule">
+                <p>Incremental Outfitters Inc. is an incremental game where the player forges weapons, armor and tools to outfit random adventures for gold, allowing them to upgrade various aspects of their operation<br><br>
+                    I built this after replying to a post in /r/gameideas. I had been interested in Godot for a while, and this seemed an easy way to test the waters.
+                    I spent a few days running their tutorials and adapting them for Android, then I put this together over the course of a couple weeks.<br><br>
+                    The quest giver and quest names are all stitched together madlibs style, resulting in some very funny combos. Anthony Avon provided the background art, and the 176 questgiver heads were generated with Artbreeder.<br><br></p>
+                <b>Tech:</b> <i>Godot (GDScript), Artbreeder, Adobe Illustrator, Adobe Photoshop, VSCode, Android SDK</i>
+            </div>
+        </div>
+        <br>
+        <div class="project-wrapper">
+            <div class="project-details">
+                <h1 class="title">Ragin' Amy</h1>
+                <hr id="project-rule">
+                <p>Ragin' Amy is an endless driver where players get points for hitting objects across eight unique levels.
+                    As you destroy objects, you acheive higher tiers of Rage, allowing you to destroy more durable objects and eventually cars and trucks.<br><br>
+                    This was a collaboration with an old friend from EA, who did the models and textures in Maya. Animations were split between us; many were animated in Maya
+                    but other things such as windmills, pylons and cars I animated programmatically.<br><br>
+                    Incidentally he is married to an Amy, which is no coincidence.<br><br>
+                </p>
+                <b>Tech:</b> <i>Unity 5 (C#), Adobe Illustrator, Adobe Photoshop, Notepad++, Nuendo, Android SDK</i>
+            </div>
+            <div class="carousel-wrapper">
+                <div id="image-carousel-2" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="images/ss-ra1.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-ra2.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-ra3.jpg" alt="">
+                            </li>			
+                            <li class="splide__slide">
+                                <img src="images/ss-ra4.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-ra5.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="project-wrapper">
+            <div class="carousel-wrapper">
+                <div id="image-carousel-3" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="images/ss-hf1.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-hf2.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-hf3.jpg" alt="">
+                            </li>			
+                            <li class="splide__slide">
+                                <img src="images/ss-hf4.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-hf5.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="project-details">
+                <h1 class="title">HeavenFall</h1>
+                <hr id="project-rule">
+                <p>HeavenFall is a 'faller' where the player is plummeting towards the ground while using clouds and birds to check their momentum.
+                    Each level gets progressively higher, with more and more environmental objects introduced.<br><br>
+                    This was my first real Unity project. After going through several tutorials and trying a few different experiments I wanted to make something completely from scratch.<br><br>
+                
+                I drew and animated the sprites myself, as well as voicing and recording the character and creating most of the Sound FX.<br><br></p>
+                <b>Tech:</b> <i>Unity 3 (C#), Adobe Illustrator, Adobe Photoshop, Unity Editor, Nuendo, Android SDK</i>
+            </div>
+        </div>
+        <br>
+        <div class="project-wrapper">
+            <div class="project-details">
+                <h1 class="title">SnoozeScuses</h1>
+                <hr id="project-rule">
+                <p>SnoozeScuses was my first foray into Android development. This was an idea I had kicking around for a long time -- an alarm clock for your phone
+                    filled with a database of possible excuses to send your boss explaining why you'd be late or absent.<br><br>
+                    I designed and prototyped the interface in Adobe Illustrator and built the app in Java using Eclipse, which was bundled with the Android SDK at the time.<br><br>
+                    The database is in SQLite and has about 1200 excuses in it, with categories and details that can be switched in the settings menu.
+                    To learn more, you can check out the <a href="https://www.youtube.com/watch?v=6Xj-TGC9fZ4" target="new">SnoozeScuses feature video</a> on YouTube.<br><br>
+                </p>
+                <b>Tech:</b> <i>Eclipse (Java), SQLite, Adobe Illustrator, Adobe Photoshop, Nuendo, Soundforge, Reason, Android SDK</i>
+            </div>
+            <div class="carousel-wrapper">
+                <div id="image-carousel-4" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="images/ss-ss1.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-ss2.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-ss3.jpg" alt="">
+                            </li>			
+                            <li class="splide__slide">
+                                <img src="images/ss-ss4.jpg" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="images/ss-ss5.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script>
+            new Splide( '#image-carousel-1', {type: 'loop', perPage: 1, gap: '.5rem', padding: '10%', start: 1}).mount();
+            new Splide( '#image-carousel-2', {type: 'loop', perPage: 1, gap: '.5rem', padding: '10%', start: 4}).mount();
+            new Splide( '#image-carousel-3', {type: 'loop', perPage: 1, gap: '.5rem', padding: '10%', start: 1}).mount();
+            new Splide( '#image-carousel-4', {type: 'loop', perPage: 1, gap: '.5rem', padding: '10%', start: 3}).mount();
+        </script>
+
+
+
+
+
+
+    </body>
 </html>
